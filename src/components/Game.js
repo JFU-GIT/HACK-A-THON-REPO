@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { calculateWinner } from '../helper';
+import calculateWinner from '../helper';
 import Board from './Board';
 
 const Game = () => {
