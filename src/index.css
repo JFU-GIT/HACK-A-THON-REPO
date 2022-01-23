@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* .board {
+    background: #272727;
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    display: flex;
+}
+  
+.squares {
+  background: #272727;
+  border: 2px solid white;
+  font-size: 5rem;
+  cursor: pointer;
+  outline: none;
+} */
+
+.X {
+  color: red;
+}
+
+.O {
+  color: green;
+}
+
+.board
+{
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #34495e;
+  color: #fff;
+  border: 6px solid #2c3e50;
+  border-radius: 10px;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.squares
+{
+  border: 6px solid #2c3e50;
+  border-radius: 2px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
