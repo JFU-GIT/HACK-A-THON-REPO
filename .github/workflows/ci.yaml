@@ -1,9 +1,5 @@
 name: CI for Node.js React Sample App
-on:
-  push:
-    branches: [master]
-  pull_request:
-    branches: [master]
+on: [push]
 jobs:
   build: # test
     runs-on: ubuntu-latest
